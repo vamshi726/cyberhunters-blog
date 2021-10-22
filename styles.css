@@ -72,3 +72,52 @@ a{
 .header .navigation li:hover{
     border-bottom: 2px solid crimson;
 }
+
+/* Main and Posts */
+
+.main .col{
+    width: 48%;
+}
+
+.post .post-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.user-info img{
+    width: 2.5rem;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.user-info span{
+    margin-left: 0.5rem ;
+    color: grey;
+}
+
+.user-info span:nth-child(4){
+    color: crimson;
+}
+
+.post p{
+    font-size: 0.9rem ;
+    line-height: 1.5rem;
+    opacity: 0.6;
+    text-align: justify;
+
+}
+
+.post{
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0 ,0 ,0.05 ) 0px 4px 6px -2px;
+    margin-top: 3rem;
+}
+
+.post-info{
+    padding: 1rem;
+}
