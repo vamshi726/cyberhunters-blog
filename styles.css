@@ -121,3 +121,16 @@ a{
 .post-info{
     padding: 1rem;
 }
+
+.container.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.845rem;
+    margin-top: -1.5rem;
+
+}
+
+.post-info h2{
+    text-decoration:  underline;
+    cursor: pointer;
+}
